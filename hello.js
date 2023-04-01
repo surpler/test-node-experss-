@@ -5,6 +5,6 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
-app.listen(8090, () => {
-    console.log('示例应用正在监听 8090 端口 !');
+app.listen(80, () => {
+    console.log('示例应用正在监听 3000 端口 !');
 });
